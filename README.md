@@ -1,4 +1,4 @@
-# uzyexe/terraform [![Circle CI](https://circleci.com/gh/uzyexe/dockerfile-terraform.svg?style=svg)](https://circleci.com/gh/uzyexe/dockerfile-terraform)
+# cato1971/terraform [![Circle CI](https://circleci.com/gh/petersellars/dockerfile-terraform.svg?style=svg)](https://circleci.com/gh/petersellars/dockerfile-terraform)
 
 ## What is terraform
 
@@ -10,14 +10,14 @@ Simple file based configuration gives you a single view of your entire infrastru
 
 ## Dockerfile
 
-[**Trusted Build**](https://hub.docker.com/r/uzyexe/terraform/)
+[**Trusted Build**](https://hub.docker.com/r/cato1971/terraform/)
 
 This Docker image is based on the official [alpine:3.3](https://hub.docker.com/_/alpine/) base image.
 
 ## How to use this image
 
 ```
-docker run uzyexe/terraform [--version] [--help] <command> [<args>]
+docker run cato1971/terraform [--version] [--help] <command> [<args>]
 
 ```
 
@@ -28,77 +28,77 @@ docker run uzyexe/terraform [--version] [--help] <command> [<args>]
 ### terraform apply
 
 ```
-docker run --rm -v /data:/data uzyexe/terraform apply [options]
+docker run --rm -v /data:/data cato1971/terraform apply [options]
 ```
 
 ### terraform destroy
 
 ```
-docker run --rm -v /data:/data uzyexe/terraform destroy [options] [DIR]
+docker run --rm -v /data:/data cato1971/terraform destroy [options] [DIR]
 ```
 
 ### terraform get
 
 ```
-docker run --rm -v /data:/data uzyexe/terraform get [options] PATH
+docker run --rm -v /data:/data cato1971/terraform get [options] PATH
 ```
 
 ### terraform graph
 
 ```
-docker run --rm -v /data:/data uzyexe/terraform graph [options]
+docker run --rm -v /data:/data cato1971/terraform graph [options]
 ```
 
 ### terraform init
 
 ```
-docker run --rm -v /data:/data uzyexe/terraform init [options] SOURCE [PATH]
+docker run --rm -v /data:/data cato1971/terraform init [options] SOURCE [PATH]
 ```
 
 ### terraform output
 
 ```
-docker run --rm -v /data:/data uzyexe/terraform output [options] NAME
+docker run --rm -v /data:/data cato1971/terraform output [options] NAME
 ```
 
 ### terraform plan
 
 ```
-docker run --rm -v /data:/data uzyexe/terraform plan [options]
+docker run --rm -v /data:/data cato1971/terraform plan [options]
 ```
 
 ### terraform push
 
 ```
-docker run --rm -v /data:/data uzyexe/terraform push [options]
+docker run --rm -v /data:/data cato1971/terraform push [options]
 ```
 
 ### terraform refresh
 
 ```
-docker run --rm -v /data:/data uzyexe/terraform refresh [options]
+docker run --rm -v /data:/data cato1971/terraform refresh [options]
 ```
 
 ### terraform remote
 
 ```
-docker run --rm -v /data:/data uzyexe/terraform remote [options]
+docker run --rm -v /data:/data cato1971/terraform remote [options]
 ```
 
 ### terraform show
 
 ```
-docker run --rm -v /data:/data uzyexe/terraform show terraform.tfstate [options]
+docker run --rm -v /data:/data cato1971/terraform show terraform.tfstate [options]
 ```
 
 ### terraform taint
 
 ```
-docker run --rm -v /data:/data uzyexe/terraform taint [options] name
+docker run --rm -v /data:/data cato1971/terraform taint [options] name
 ```
 
 ### terraform version
 
 ```
-docker run --rm uzyexe/terraform version
+docker run --rm cato1971/terraform version
 ```
