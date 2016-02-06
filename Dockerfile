@@ -1,4 +1,5 @@
 FROM alpine:3.3
+MAINTAINER Peter Sellars <psellars@gmail.com>
 
 ENV TERRAFORM_VERSION 0.6.10
 
